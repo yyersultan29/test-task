@@ -2,9 +2,8 @@ import { ChangeEvent, FC, useContext, useEffect, useState } from "react"
 
 import { useHistory } from "react-router"
 
-import { FormCheckbox } from "../../../components"
 import { LoginContext } from "../login"
-
+import { FormCheckbox } from "../../../components"
 
 
 export const Step1: FC = () => {
